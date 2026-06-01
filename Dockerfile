@@ -7,6 +7,9 @@ COPY React/package*.json ./
 RUN npm install
 COPY React/ ./
 
+ARG VITE_API_URL
+ENV VITE_API_URL=$VITE_API_URL
+
 # Build the frontend - Output will be in /app/frontend/dist
 RUN npm run build
 

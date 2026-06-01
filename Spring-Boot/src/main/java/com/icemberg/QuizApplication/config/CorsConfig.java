@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOriginPatterns("http://localhost:5173") // Allow frontend origin
+                        .allowedOriginPatterns("http://localhost:5173", "https://brainblast-quiz-app.onrender.com") // Allow frontend origins
 
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
 

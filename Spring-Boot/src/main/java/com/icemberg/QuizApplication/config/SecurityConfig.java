@@ -43,11 +43,13 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
 
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/", "/index.html", "/assets/**", "/*.svg", "/*.png", "/*.ico", "/*.css", "/*.js", "/error").permitAll()
-                        .requestMatchers("/login", "/register", "/oauth2/redirect").permitAll()
+                        // Public API endpoints (no JWT required)
                         .requestMatchers("/auth/login", "/auth/register", "/quiz/allQuizzes").permitAll()
-                        .requestMatchers("/question/**", "/quiz/**", "/admin/**").authenticated() // Secure everything else
-                        .anyRequest().authenticated()
+                        // Protected API endpoints (JWT required)
+                        .requestMatchers("/question/**", "/quiz/**", "/admin/**", "/auth/**").authenticated()
+                        // Everything else: SPA routes (/home, /dashboard, /login, etc.) and static assets
+                        // These are just serving index.html — React's ProtectedRoute handles client-side auth
+                        .anyRequest().permitAll()
                 )
                 .oauth2Login(oauth2 -> oauth2
                         .loginPage("/login") // Backend login page (optional to override default)

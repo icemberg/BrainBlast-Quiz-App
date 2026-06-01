@@ -16,13 +16,6 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(errorDetails, HttpStatus.NOT_FOUND);
     }
 
-    @ExceptionHandler(org.springframework.web.servlet.resource.NoResourceFoundException.class)
-    public Object handleNoResourceFoundException(org.springframework.web.servlet.resource.NoResourceFoundException ex) {
-        // Instead of throwing an error for unmapped routes (like /login or /oauth2/redirect),
-        // we forward them to the React frontend to handle the routing.
-        return new org.springframework.web.servlet.ModelAndView("forward:/index.html");
-    }
-
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponse> handleGlobalException(Exception ex, WebRequest request) {
         ErrorResponse errorDetails = new ErrorResponse(ex.getMessage(), request.getDescription(false));

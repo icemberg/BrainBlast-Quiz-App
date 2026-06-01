@@ -103,4 +103,15 @@ public class ResultServiceImpl implements ResultService {
             return false; 
         }
     }
+
+    @Override
+    public com.icemberg.QuizApplication.dto.AnswerVerificationResponse verifyAnswer(Integer questionId, String selectedAnswer) {
+        Optional<Question> questionOpt = questionDao.findById(questionId);
+        if (questionOpt.isEmpty()) {
+            return new com.icemberg.QuizApplication.dto.AnswerVerificationResponse(false, null);
+        }
+        Question question = questionOpt.get();
+        boolean isCorrect = question.getRightAnswer().equals(selectedAnswer);
+        return new com.icemberg.QuizApplication.dto.AnswerVerificationResponse(isCorrect, question.getRightAnswer());
+    }
 }

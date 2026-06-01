@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, CheckCircle, XCircle, RefreshCw } from 'lucide-react';
+import { ArrowRight, CheckCircle, XCircle, RefreshCw, BookOpen, Loader2 } from 'lucide-react';
 import api from '../api/axios';
 import { CircularProgress } from '@mui/material';
 import { useToast } from '../context/ToastContext';
+import ReactMarkdown from 'react-markdown';
 
 
 const QuizRoom = () => {
@@ -19,6 +20,13 @@ const QuizRoom = () => {
     const [totalQuestions, setTotalQuestions] = useState(0);
     const { showToast } = useToast();
 
+    // --- Answer Verification & Remedial Explanation State ---
+    const [verificationResult, setVerificationResult] = useState(null); // { correct, correctAnswer } or null
+    const [isVerifying, setIsVerifying] = useState(false);
+    const [explanation, setExplanation] = useState(null); // Markdown string from AI
+    const [isLoadingExplanation, setIsLoadingExplanation] = useState(false);
+    const [optionsLocked, setOptionsLocked] = useState(false); // Prevent re-selecting after verification
+
     // Context from navigation (Category for Endless Mode)
     const category = location.state?.category;
     const title = location.state?.title || 'Quiz Challenge';
@@ -29,8 +37,17 @@ const QuizRoom = () => {
         setCurrentQIndex(0);
         setResponses([]);
         setLoading(true);
+        resetQuestionState();
         fetchQuiz();
     }, [id]);
+
+    const resetQuestionState = () => {
+        setVerificationResult(null);
+        setExplanation(null);
+        setIsLoadingExplanation(false);
+        setIsVerifying(false);
+        setOptionsLocked(false);
+    };
 
     const fetchQuiz = async () => {
         try {
@@ -49,14 +66,68 @@ const QuizRoom = () => {
         }
     };
 
-    const handleOptionSelect = (option) => {
+    const handleOptionSelect = async (option) => {
+        if (optionsLocked || isVerifying) return; // Prevent re-selection
+
+        // Update the response
         const newResponses = [...responses];
         newResponses[currentQIndex].response = option;
         setResponses(newResponses);
+
+        // Lock options and verify immediately
+        setOptionsLocked(true);
+        setIsVerifying(true);
+
+        try {
+            const currentQuestion = questions[currentQIndex];
+            const res = await api.post('/quiz/verifyAnswer', {
+                questionId: currentQuestion.id,
+                selectedAnswer: option,
+            });
+
+            const verification = res.data;
+            setVerificationResult(verification);
+
+            // If wrong, fire the remedial explanation request in the background
+            if (!verification.correct) {
+                fetchRemedialExplanation(
+                    currentQuestion.questionTitle,
+                    option,
+                    verification.correctAnswer
+                );
+            }
+        } catch (error) {
+            console.error("Verification failed:", error);
+            showToast("Could not verify answer. Continuing anyway.", "error");
+            // Unlock so the user can proceed
+            setOptionsLocked(false);
+        } finally {
+            setIsVerifying(false);
+        }
+    };
+
+    const fetchRemedialExplanation = async (question, userAnswer, correctAnswer) => {
+        setIsLoadingExplanation(true);
+        try {
+            const res = await api.post('/quiz/remedial-explanation', {
+                question,
+                userAnswer,
+                correctAnswer,
+            });
+            setExplanation(res.data.explanation);
+        } catch (error) {
+            console.error("Remedial explanation failed:", error);
+            setExplanation(
+                `### Explanation Unavailable\nWe couldn't fetch a detailed explanation right now. The correct answer is: **${correctAnswer}**`
+            );
+        } finally {
+            setIsLoadingExplanation(false);
+        }
     };
 
     const handleNext = () => {
         if (currentQIndex < questions.length - 1) {
+            resetQuestionState();
             setCurrentQIndex(prev => prev + 1);
         } else {
             handleSubmit();
@@ -67,8 +138,6 @@ const QuizRoom = () => {
         try {
             setLoading(true);
             const res = await api.post(`/quiz/submitQuiz/${id}`, responses);
-            // Parse score from string response "Your score is: X out of Y"
-            // Or just display the string. The backend returns a String message currently.
             setScore(res.data);
         } catch (error) {
             console.error(error);
@@ -109,8 +178,6 @@ const QuizRoom = () => {
             });
 
             if (res.data && res.data.id) {
-                // Navigate to new quiz ID - useEffect will trigger fetchQuiz
-                // Pass same state to keep endless loop possible
                 navigate(`/quiz/${res.data.id}`, { state: { category, title } });
             } else {
                 showToast("Failed to start new quiz.", "error");
@@ -122,6 +189,43 @@ const QuizRoom = () => {
             setLoading(false);
         }
     };
+
+    // --- Helpers for option styling ---
+    const getOptionStyle = (option) => {
+        const isSelected = responses[currentQIndex]?.response === option;
+
+        // Before verification: standard selected/unselected styles
+        if (!verificationResult) {
+            if (isSelected) return 'bg-purple-600/20 border-purple-500 text-white';
+            return 'bg-gray-800 border-gray-700 text-gray-300 hover:bg-gray-700';
+        }
+
+        // After verification
+        const isCorrectOption = option === verificationResult.correctAnswer;
+
+        if (isCorrectOption) {
+            // Always highlight the correct answer in green
+            return 'bg-emerald-600/20 border-emerald-500 text-emerald-300';
+        }
+        if (isSelected && !verificationResult.correct) {
+            // The user's wrong pick in red
+            return 'bg-red-600/20 border-red-500 text-red-300';
+        }
+        // All other options: dimmed
+        return 'bg-gray-800/50 border-gray-700/50 text-gray-500';
+    };
+
+    const getOptionIcon = (option) => {
+        if (!verificationResult) return null;
+
+        const isSelected = responses[currentQIndex]?.response === option;
+        const isCorrectOption = option === verificationResult.correctAnswer;
+
+        if (isCorrectOption) return <CheckCircle className="text-emerald-400 shrink-0" size={20} />;
+        if (isSelected && !verificationResult.correct) return <XCircle className="text-red-400 shrink-0" size={20} />;
+        return null;
+    };
+
 
     if (loading) {
         return (
@@ -212,20 +316,92 @@ const QuizRoom = () => {
                                 <button
                                     key={idx}
                                     onClick={() => handleOptionSelect(option)}
-                                    className={`p-4 rounded-xl text-left transition-all border ${responses[currentQIndex].response === option
-                                        ? 'bg-purple-600/20 border-purple-500 text-white'
-                                        : 'bg-gray-800 border-gray-700 text-gray-300 hover:bg-gray-700'
-                                        }`}
+                                    disabled={optionsLocked}
+                                    className={`p-4 rounded-xl text-left transition-all border flex items-center justify-between gap-3 ${getOptionStyle(option)} ${optionsLocked ? 'cursor-default' : 'cursor-pointer'}`}
                                 >
-                                    <span className="font-bold mr-2">{String.fromCharCode(65 + idx)}.</span> {option}
+                                    <span>
+                                        <span className="font-bold mr-2">{String.fromCharCode(65 + idx)}.</span> {option}
+                                    </span>
+                                    {getOptionIcon(option)}
                                 </button>
                             ))}
                         </div>
 
+                        {/* Verification Result Banner */}
+                        <AnimatePresence>
+                            {verificationResult && (
+                                <motion.div
+                                    initial={{ opacity: 0, y: 10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    exit={{ opacity: 0, y: -10 }}
+                                    className={`mt-6 p-4 rounded-xl border flex items-center gap-3 ${
+                                        verificationResult.correct
+                                            ? 'bg-emerald-900/30 border-emerald-700 text-emerald-300'
+                                            : 'bg-red-900/30 border-red-700 text-red-300'
+                                    }`}
+                                >
+                                    {verificationResult.correct ? (
+                                        <>
+                                            <CheckCircle size={24} />
+                                            <span className="font-semibold text-lg">Correct! Well done! 🎉</span>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <XCircle size={24} />
+                                            <span className="font-semibold text-lg">
+                                                Incorrect! The correct answer is: <strong className="text-white">{verificationResult.correctAnswer}</strong>
+                                            </span>
+                                        </>
+                                    )}
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
+
+                        {/* AI Remedial Explanation Section */}
+                        <AnimatePresence>
+                            {verificationResult && !verificationResult.correct && (
+                                <motion.div
+                                    initial={{ opacity: 0, height: 0 }}
+                                    animate={{ opacity: 1, height: 'auto' }}
+                                    exit={{ opacity: 0, height: 0 }}
+                                    className="mt-4 overflow-hidden"
+                                >
+                                    <div className="bg-gradient-to-br from-gray-800/80 to-gray-900/80 border border-purple-800/40 rounded-xl p-6">
+                                        <div className="flex items-center gap-2 mb-4 text-purple-400">
+                                            <BookOpen size={20} />
+                                            <span className="font-bold text-sm uppercase tracking-wider">AI Tutor Explanation</span>
+                                        </div>
+
+                                        {isLoadingExplanation ? (
+                                            <div className="flex items-center gap-3 text-gray-400 py-4">
+                                                <Loader2 className="animate-spin" size={20} />
+                                                <span>Searching the web and generating explanation...</span>
+                                            </div>
+                                        ) : explanation ? (
+                                            <div className="prose prose-invert prose-sm max-w-none
+                                                prose-headings:text-purple-300 prose-headings:font-bold
+                                                prose-strong:text-white
+                                                prose-p:text-gray-300 prose-p:leading-relaxed
+                                                prose-li:text-gray-300
+                                                prose-code:text-pink-300 prose-code:bg-gray-800 prose-code:px-1 prose-code:rounded">
+                                                <ReactMarkdown>{explanation}</ReactMarkdown>
+                                            </div>
+                                        ) : null}
+                                    </div>
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
+
+                        {/* Next / Submit Button */}
                         <div className="mt-8 flex justify-end">
                             <button
                                 onClick={handleNext}
-                                className="px-8 py-3 bg-white text-black font-bold rounded-lg hover:bg-gray-200 transition-colors flex items-center"
+                                disabled={!verificationResult && !responses[currentQIndex]?.response}
+                                className={`px-8 py-3 font-bold rounded-lg transition-colors flex items-center ${
+                                    !verificationResult && !responses[currentQIndex]?.response
+                                        ? 'bg-gray-700 text-gray-500 cursor-not-allowed'
+                                        : 'bg-white text-black hover:bg-gray-200'
+                                }`}
                             >
                                 {currentQIndex === totalQuestions - 1 ? 'Submit' : 'Next'} <ArrowRight className="ml-2" size={18} />
                             </button>

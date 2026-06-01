@@ -10,6 +10,8 @@
 
 BrainBlast is a robust full-stack platform designed to create, manage, and take interactive quizzes. It solves the problem of repetitive assessment by utilizing a stateless Redis-backed session architecture for dynamic endless quiz modes, alongside robust relational mapping for administrative quiz management and score tracking.
 
+**Deployment link:** https://brainblast-quiz-app.onrender.com
+
 ### Key Features
 - **Dynamic & Endless Quizzes**: Take curated template quizzes or let the system generate infinite unique questions via Redis session tracking to avoid repetition.
 - **Role-Based Access Control**: Secure `ADMIN` dashboard for CRUD question/quiz management and a sleek `USER` interface for seamless test-taking.

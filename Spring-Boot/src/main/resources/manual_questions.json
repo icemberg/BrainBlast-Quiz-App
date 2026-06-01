@@ -1,0 +1,2572 @@
+{
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Arts",
+            "question": "What is the world's oldest known piece of fiction?",
+            "correct_answer": "Epic of Gilgamesh",
+            "incorrect_answers": [
+                "Papyrus of Ani",
+                "Code of Hammurabi",
+                "Rosetta Stone"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Arts",
+            "question": "Who painted the Mona Lisa?",
+            "correct_answer": "Leonardo da Vinci",
+            "incorrect_answers": [
+                "Pablo Picasso",
+                "Vincent van Gogh",
+                "Michelangelo"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Arts",
+            "question": "Which painting was not made by Vincent Van Gogh?",
+            "correct_answer": "The Ninth Wave",
+            "incorrect_answers": [
+                "Café Terrace at Night",
+                "Bedroom In Arles",
+                "Starry Night"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Arts",
+            "question": "Who painted The Starry Night?",
+            "correct_answer": "Vincent van Gogh",
+            "incorrect_answers": [
+                "Pablo Picasso",
+                "Leonardo da Vinci",
+                "Michelangelo"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Arts",
+            "question": "What is a fundamental element of the Gothic style of architecture?",
+            "correct_answer": "pointed arch",
+            "incorrect_answers": [
+                "coffered ceilings",
+                "façades surmounted by a pediment",
+                "internal frescoes"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Arts",
+            "question": "Who sculpted the statue of David?",
+            "correct_answer": "Michelangelo",
+            "incorrect_answers": [
+                "Gian Lorenzo Bernini",
+                "Auguste Rodin",
+                "Donatello"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Arts",
+            "question": "Which Van Gogh painting depicts the view from his asylum in Saint-Rémy-de-Provence in southern France?",
+            "correct_answer": "The Starry Night",
+            "incorrect_answers": [
+                "Wheatfields with Crows",
+                "The Sower with Setting Sun",
+                "The Church at Auvers"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Arts",
+            "question": "Who painted the Sistine Chapel?",
+            "correct_answer": "Michelangelo",
+            "incorrect_answers": [
+                "Leonardo da Vinci",
+                "Pablo Picasso",
+                "Raphael"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Arts",
+            "question": "Who painted 'Swans Reflecting Elephants', 'Sleep', and 'The Persistence of Memory'?",
+            "correct_answer": "Salvador Dali",
+            "incorrect_answers": [
+                "Jackson Pollock",
+                "Vincent van Gogh",
+                "Edgar Degas"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Arts",
+            "question": "What nationality was the surrealist painter Salvador Dali?",
+            "correct_answer": "Spanish",
+            "incorrect_answers": [
+                "Italian",
+                "French",
+                "Portuguese"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Arts",
+            "question": "Which one of these paintings is not by Caspar David Friedrich?",
+            "correct_answer": "The Black Sea",
+            "incorrect_answers": [
+                "The Sea of Ice",
+                "Wanderer above the Sea of Fog",
+                "The Monk by the Sea"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Arts",
+            "question": "Who painted the epic mural Guernica?",
+            "correct_answer": "Pablo Picasso",
+            "incorrect_answers": [
+                "Francisco Goya",
+                "Leonardo da Vinci",
+                "Henri Matisse"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Arts",
+            "question": "Which of these are the name of a famous marker brand?",
+            "correct_answer": "Copic",
+            "incorrect_answers": [
+                "Dopix",
+                "Cofix",
+                "Marx"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Arts",
+            "question": "Which artist painted 'The Treachery of Images,' a painting of a pipe with the description 'this is not a pipe'?",
+            "correct_answer": "Magritte",
+            "incorrect_answers": [
+                "Matisse",
+                "Modigliani",
+                "Munch"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Arts",
+            "question": "Which artist's style was to use small different colored dots to create a picture?",
+            "correct_answer": "Georges Seurat",
+            "incorrect_answers": [
+                "Paul Cézanne",
+                "Vincent Van Gogh",
+                "Henri Rousseau"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Arts",
+            "question": "Who designed the Chupa Chups logo?",
+            "correct_answer": "Salvador Dali",
+            "incorrect_answers": [
+                "Pablo Picasso",
+                "Andy Warhol",
+                "Vincent van Gogh"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Arts",
+            "question": "What were Marcel Duchamp's readymades?",
+            "correct_answer": "utilitarian objects elevated to the status of art",
+            "incorrect_answers": [
+                "a series focused on color and light as opposed to line and shape",
+                "paintings with a barely visible outlined square",
+                "a group of identical steel boxes jutting from the wall"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Arts",
+            "question": "Which time signature is commonly known as 'Cut Time'?",
+            "correct_answer": "2/2",
+            "incorrect_answers": [
+                "4/4",
+                "6/8",
+                "3/4"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Arts",
+            "question": "Which artist’s studio was known as 'The Factory'?",
+            "correct_answer": "Andy Warhol",
+            "incorrect_answers": [
+                "Roy Lichtenstein",
+                "David Hockney",
+                "Peter Blake"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Arts",
+            "question": "What year was the Mona Lisa finished?",
+            "correct_answer": "1504",
+            "incorrect_answers": [
+                "1487",
+                "1523",
+                "1511"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Arts",
+            "question": "How many paint and pastel versions of 'The Scream' is Norwegian painter Edvard Munch believed to have produced?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                "1",
+                "3",
+                "2"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Arts",
+            "question": "Painter Piet Mondrian (1872 - 1944) was a part of what movement?",
+            "correct_answer": "Neoplasticism",
+            "incorrect_answers": [
+                "Precisionism",
+                "Cubism",
+                "Impressionism"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Arts",
+            "question": "Which of these is not an additional variation of the color purple?",
+            "correct_answer": "Kobicha",
+            "incorrect_answers": [
+                "Byzantium",
+                "Pomp and Power",
+                "Palatinate"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Arts",
+            "question": "What was the major distinction between the English and French Gothic styles of architecture?",
+            "correct_answer": "Fan vaulting",
+            "incorrect_answers": [
+                "Pinnacles",
+                "Gargoyles",
+                "Hemispherical Domes"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Arts",
+            "question": "What French sculptor designed the Statue of Liberty?",
+            "correct_answer": "Frédéric Auguste Bartholdi",
+            "incorrect_answers": [
+                "Jean-Léon Gérôme",
+                "Auguste Rodin",
+                "Henri Matisse"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Arts",
+            "question": "What year did Albrecht Dürer create the painting 'The Young Hare'?",
+            "correct_answer": "1502",
+            "incorrect_answers": [
+                "1702",
+                "1402",
+                "1602"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Arts",
+            "question": "Albrecht Dürer's birthplace and place of death were in...",
+            "correct_answer": "Nürnberg",
+            "incorrect_answers": [
+                "Augsburg",
+                "Bamberg",
+                "Berlin"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Arts",
+            "question": "What was the first successful and commercially viable photographic technique?",
+            "correct_answer": "The Daguerreotype",
+            "incorrect_answers": [
+                "Collodion process",
+                "The Turin Shroud",
+                "Kodachrome film"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Arts",
+            "question": "The painting 'The Starry Night' by Vincent van Gogh was part of which art movement?",
+            "correct_answer": "Post-Impressionism",
+            "incorrect_answers": [
+                "Romanticism",
+                "Neoclassical",
+                "Impressionism"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "How many values can a single byte represent?",
+            "correct_answer": "256",
+            "incorrect_answers": [
+                "8",
+                "1",
+                "1024"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What does the computer software acronym JVM stand for?",
+            "correct_answer": "Java Virtual Machine",
+            "incorrect_answers": [
+                "Java Vendor Machine",
+                "Java Visual Machine",
+                "Just Virtual Machine"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "In computing, what does LAN stand for?",
+            "correct_answer": "Local Area Network",
+            "incorrect_answers": [
+                "Long Antenna Node",
+                "Light Access Node",
+                "Land Address Navigation"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What does GHz stand for?",
+            "correct_answer": "Gigahertz",
+            "incorrect_answers": [
+                "Gigahotz",
+                "Gigahetz",
+                "Gigahatz"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "On a standard American QWERTY keyboard, what symbol will you enter if you hold the shift key and press 1?",
+            "correct_answer": "Exclamation Mark",
+            "incorrect_answers": [
+                "Dollar Sign",
+                "Percent Sign",
+                "Asterisk"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "The numbering system with a radix of 16 is more commonly referred to as ",
+            "correct_answer": "Hexidecimal",
+            "incorrect_answers": [
+                "Binary",
+                "Duodecimal",
+                "Octal"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "In web design, what does CSS stand for?",
+            "correct_answer": "Cascading Style Sheet",
+            "incorrect_answers": [
+                "Counter Strike: Source",
+                "Corrective Style Sheet",
+                "Computer Style Sheet"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "How many kilobytes in one gigabyte (in decimal)?",
+            "correct_answer": "1000000",
+            "incorrect_answers": [
+                "1024",
+                "1000",
+                "1048576"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn't get modified?",
+            "correct_answer": "Final",
+            "incorrect_answers": [
+                "Static",
+                "Private",
+                "Public"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "How long is an IPv6 address?",
+            "correct_answer": "128 bits",
+            "incorrect_answers": [
+                "32 bits",
+                "64 bits",
+                "128 bytes"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+            "correct_answer": "Apple",
+            "incorrect_answers": [
+                "Microsoft",
+                "Atari",
+                "Commodore"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "The C programming language was created by this American computer scientist. ",
+            "correct_answer": "Dennis Ritchie",
+            "incorrect_answers": [
+                "Tim Berners Lee",
+                "al-Khwārizmī",
+                "Willis Ware"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "In networking, what does OSPF stand for?",
+            "correct_answer": "Open Shortest Path First",
+            "incorrect_answers": [
+                "Order State Part First",
+                "Order Sense Ping Find",
+                "Open Signal Path Finder"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "When Gmail first launched, how much storage did it provide for your email?",
+            "correct_answer": "1GB",
+            "incorrect_answers": [
+                "512MB",
+                "5GB",
+                "Unlimited"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "Which programming language shares its name with an island in Indonesia?",
+            "correct_answer": "Java",
+            "incorrect_answers": [
+                "Python",
+                "C",
+                "Jakarta"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "The series of the Intel HD graphics generation succeeding that of the 5000 and 6000 series (Broadwell) is called:",
+            "correct_answer": "HD Graphics 500",
+            "incorrect_answers": [
+                "HD Graphics 700 ",
+                "HD Graphics 600",
+                "HD Graphics 7000"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "If you were to code software in this language you'd only be able to type 0's and 1's.",
+            "correct_answer": "Binary",
+            "incorrect_answers": [
+                "JavaScript",
+                "C++",
+                "Python"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What is the code name for the mobile operating system Android 7.0?",
+            "correct_answer": "Nougat",
+            "incorrect_answers": [
+                "Ice Cream Sandwich",
+                "Jelly Bean",
+                "Marshmallow"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "The programming language 'Swift' was created to replace what other programming language?",
+            "correct_answer": "Objective-C",
+            "incorrect_answers": [
+                "C#",
+                "Ruby",
+                "C++"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What is the most preferred image format used for logos in the Wikimedia database?",
+            "correct_answer": ".svg",
+            "incorrect_answers": [
+                ".png",
+                ".jpeg",
+                ".gif"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What amount of bits commonly equals one byte?",
+            "correct_answer": "8",
+            "incorrect_answers": [
+                "1",
+                "2",
+                "64"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "Which computer hardware device provides an interface for all other connected devices to communicate?",
+            "correct_answer": "Motherboard",
+            "incorrect_answers": [
+                "Central Processing Unit",
+                "Hard Disk Drive",
+                "Random Access Memory"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What does the Prt Sc button do?",
+            "correct_answer": "Captures what's on the screen and copies it to your clipboard",
+            "incorrect_answers": [
+                "Nothing",
+                "Saves a .png file of what's on the screen in your screenshots folder in photos",
+                "Closes all windows"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What does the \"MP\" stand for in MP3?",
+            "correct_answer": "Moving Picture",
+            "incorrect_answers": [
+                "Music Player",
+                "Multi Pass",
+                "Micro Point"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What language does Node.js use?",
+            "correct_answer": "JavaScript",
+            "incorrect_answers": [
+                "Java",
+                "Java Source",
+                "Joomla Source Code"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "According to the International System of Units, how many bytes are in a kilobyte of RAM?",
+            "correct_answer": "1000",
+            "incorrect_answers": [
+                "512",
+                "1024",
+                "500"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "In \"Hexadecimal\", what color would be displayed from the color code? \"#00FF00\"?",
+            "correct_answer": "Green",
+            "incorrect_answers": [
+                "Red",
+                "Blue",
+                "Yellow"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What does LTS stand for in the software market?",
+            "correct_answer": "Long Term Support",
+            "incorrect_answers": [
+                "Long Taco Service",
+                "Ludicrous Transfer Speed",
+                "Ludicrous Turbo Speed"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "In any programming language, what is the most common way to iterate through an array?",
+            "correct_answer": "'For' loops",
+            "incorrect_answers": [
+                "'If' Statements",
+                "'Do-while' loops",
+                "'While' loops"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What is the domain name for the country Tuvalu?",
+            "correct_answer": ".tv",
+            "incorrect_answers": [
+                ".tu",
+                ".tt",
+                ".tl"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "Which computer language would you associate Django framework with?",
+            "correct_answer": "Python",
+            "incorrect_answers": [
+                "C#",
+                "C++",
+                "Java"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What is the name of Layer 7 of the OSI model?",
+            "correct_answer": "Application",
+            "incorrect_answers": [
+                "Session",
+                "Network",
+                "Present"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What does CPU stand for?",
+            "correct_answer": "Central Processing Unit",
+            "incorrect_answers": [
+                "Central Process Unit",
+                "Computer Personal Unit",
+                "Central Processor Unit"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "The Electron computer was released in Britain during 1983 for the home computing market, by which company? ",
+            "correct_answer": "Acorn Computers",
+            "incorrect_answers": [
+                "Sinclair Research",
+                "Amstrad PLC",
+                "Commodore Business Machines"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "On Twitter, what was the original character limit for a Tweet?",
+            "correct_answer": "140",
+            "incorrect_answers": [
+                "120",
+                "160",
+                "100"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "This mobile OS held the largest market share in 2012.",
+            "correct_answer": "iOS",
+            "incorrect_answers": [
+                "Android",
+                "BlackBerry",
+                "Symbian"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "What programming language was GitHub written in?",
+            "correct_answer": "Ruby",
+            "incorrect_answers": [
+                "JavaScript",
+                "Python",
+                "Lua"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "Which SQL keyword is used to fetch data from a database?",
+            "correct_answer": "SELECT",
+            "incorrect_answers": [
+                "INDEX",
+                "VALUES",
+                "EXEC"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "In computing, what does MIDI stand for?",
+            "correct_answer": "Musical Instrument Digital Interface",
+            "incorrect_answers": [
+                "Musical Interface of Digital Instruments",
+                "Modular Interface of Digital Instruments",
+                "Musical Instrument Data Interface"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Computers",
+            "question": "HTML is what type of language?",
+            "correct_answer": "Markup Language",
+            "incorrect_answers": [
+                "Macro Language",
+                "Programming Language",
+                "Scripting Language"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What was the first commerically available computer processor?",
+            "correct_answer": "Intel 4004",
+            "incorrect_answers": [
+                "Intel 486SX",
+                "TMS 1000",
+                "AMD AM386"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Which of the following languages is used as a scripting language in the Unity 3D game engine?",
+            "correct_answer": "C#",
+            "incorrect_answers": [
+                "Java",
+                "C++",
+                "Objective-C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What is known as \"the brain\" of the Computer?",
+            "correct_answer": "Central Processing Unit",
+            "incorrect_answers": [
+                "Motherboard",
+                "Graphics Processing Unit",
+                "Keyboard"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": ".rs is the top-level domain for what country?",
+            "correct_answer": "Serbia",
+            "incorrect_answers": [
+                "Romania",
+                "Russia",
+                "Rwanda"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "In computing terms, typically what does CLI stand for?",
+            "correct_answer": "Command Line Interface",
+            "incorrect_answers": [
+                "Common Language Input",
+                "Control Line Interface",
+                "Common Language Interface"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What does \"LCD\" stand for?",
+            "correct_answer": "Liquid Crystal Display",
+            "incorrect_answers": [
+                "Language Control Design",
+                "Last Common Difference",
+                "Long Continuous Design"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Approximately how many Apple I personal computers were created?",
+            "correct_answer": "200",
+            "incorrect_answers": [
+                "100",
+                "500",
+                "1000"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What was the first Android version specifically optimized for tablets?",
+            "correct_answer": "Honeycomb",
+            "incorrect_answers": [
+                "Eclair",
+                "Froyo",
+                "Marshmellow"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Moore's law originally stated that the number of transistors on a microprocessor chip would double every...",
+            "correct_answer": "Year",
+            "incorrect_answers": [
+                "Four Years",
+                "Two Years",
+                "Eight Years"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What does the acronym CDN stand for in terms of networking?",
+            "correct_answer": "Content Delivery Network",
+            "incorrect_answers": [
+                "Content Distribution Network",
+                "Computational Data Network",
+                "Compressed Data Network"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "While Apple was formed in California, in which western state was Microsoft founded?",
+            "correct_answer": "New Mexico",
+            "incorrect_answers": [
+                "Washington",
+                "Colorado",
+                "Arizona"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "When was the programming language \"C#\" released?",
+            "correct_answer": "2000",
+            "incorrect_answers": [
+                "1998",
+                "1999",
+                "2001"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+            "correct_answer": "<marquee></marquee>",
+            "incorrect_answers": [
+                "<scroll></scroll>",
+                "<move></move>",
+                "<slide></slide>"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What is the number of keys on a standard Windows Keyboard?",
+            "correct_answer": "104",
+            "incorrect_answers": [
+                "64",
+                "94",
+                "76"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Which coding language was the #1 programming language in terms of usage on GitHub in 2015?",
+            "correct_answer": "JavaScript",
+            "incorrect_answers": [
+                "C#",
+                "Python",
+                "PHP"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Laserjet and inkjet printers are both examples of what type of printer?",
+            "correct_answer": "Non-impact printer",
+            "incorrect_answers": [
+                "Impact printer",
+                "Daisywheel printer",
+                "Dot matrix printer"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "In programming, the ternary operator is mostly defined with what symbol(s)?",
+            "correct_answer": "?:",
+            "incorrect_answers": [
+                "??",
+                "if then",
+                "?"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What is the main CPU is the Sega Mega Drive / Sega Genesis?",
+            "correct_answer": "Motorola 68000",
+            "incorrect_answers": [
+                "Zilog Z80",
+                "Yamaha YM2612",
+                "Intel 8088"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Generally, which component of a computer draws the most power?",
+            "correct_answer": "Video Card",
+            "incorrect_answers": [
+                "Hard Drive",
+                "Processor",
+                "Power Supply"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "How many bytes are in a single Kibibyte?",
+            "correct_answer": "1024",
+            "incorrect_answers": [
+                "2400",
+                "1000",
+                "1240"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "In CSS, which of these values CANNOT be used with the \"position\" property?",
+            "correct_answer": "center",
+            "incorrect_answers": [
+                "static",
+                "absolute",
+                "relative"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What does the term GPU stand for?",
+            "correct_answer": "Graphics Processing Unit",
+            "incorrect_answers": [
+                "Gaming Processor Unit",
+                "Graphite Producing Unit",
+                "Graphical Proprietary Unit"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What did the name of the Tor Anonymity Network orignially stand for?",
+            "correct_answer": "The Onion Router",
+            "incorrect_answers": [
+                "The Only Router",
+                "The Orange Router",
+                "The Ominous Router"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What does RAID stand for?",
+            "correct_answer": "Redundant Array of Independent Disks",
+            "incorrect_answers": [
+                "Rapid Access for Indexed Devices",
+                "Range of Applications with Identical Designs",
+                "Randomized Abstract Identification Description"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Which programming language was developed by Sun Microsystems in 1995?",
+            "correct_answer": "Java",
+            "incorrect_answers": [
+                "Python",
+                "Solaris OS",
+                "C++"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What was the name given to Android 4.3?",
+            "correct_answer": "Jelly Bean",
+            "incorrect_answers": [
+                "Lollipop",
+                "Nutella",
+                "Froyo"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?",
+            "correct_answer": "44.1 kHz",
+            "incorrect_answers": [
+                "32.0 kHz",
+                "1.5 MHz",
+                "20.5 kHz"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "The teapot often seen in many 3D modeling applications is called what?",
+            "correct_answer": "Utah Teapot",
+            "incorrect_answers": [
+                "Pixar Teapot",
+                "3D Teapot",
+                "Tennessee Teapot"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Nvidia's headquarters are based in which Silicon Valley city?",
+            "correct_answer": "Santa Clara",
+            "incorrect_answers": [
+                "Palo Alto",
+                "Cupertino",
+                "Mountain View"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What does the 'S' in the RSA encryption algorithm stand for?",
+            "correct_answer": "Shamir",
+            "incorrect_answers": [
+                "Secure",
+                "Schottky",
+                "Stable"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Which of these is the name for the failed key escrow device introduced by the National Security Agency in 1993?",
+            "correct_answer": "Clipper Chip",
+            "incorrect_answers": [
+                "Enigma Machine",
+                "Skipjack",
+                "Nautilus"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "In the programming language \"Python\", which of these statements would display the string \"Hello World\" correctly?",
+            "correct_answer": "print(\"Hello World\")",
+            "incorrect_answers": [
+                "console.log(\"Hello World\")",
+                "echo \"Hello World\"",
+                "printf(\"Hello World\")"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "On which day did the World Wide Web go online?",
+            "correct_answer": "December 20, 1990",
+            "incorrect_answers": [
+                "December 17, 1996",
+                "November 12, 1990",
+                "November 24, 1995"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Which of these programming languages is a low-level language?",
+            "correct_answer": "Assembly",
+            "incorrect_answers": [
+                "Python",
+                "C#",
+                "Pascal"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What was Bitcoin's block size limit in 2010?",
+            "correct_answer": "1 MB",
+            "incorrect_answers": [
+                "1GB",
+                "1 KB",
+                "1 TB"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "The name of technology company HP stands for what?",
+            "correct_answer": "Hewlett-Packard",
+            "incorrect_answers": [
+                "Howard Packmann",
+                "Husker-Pollosk",
+                "Hellman-Pohl"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Whistler was the codename of this Microsoft Operating System.",
+            "correct_answer": "Windows XP",
+            "incorrect_answers": [
+                "Windows 2000",
+                "Windows 7",
+                "Windows 95"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "When did the online streaming service \"Mixer\" launch?",
+            "correct_answer": "2016",
+            "incorrect_answers": [
+                "2013",
+                "2009",
+                "2011"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What five letter word is the motto of the IBM Computer company?",
+            "correct_answer": "Think",
+            "incorrect_answers": [
+                "Click",
+                "Logic",
+                "Pixel"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": ".at is the top-level domain for what country?",
+            "correct_answer": "Austria",
+            "incorrect_answers": [
+                "Argentina",
+                "Australia",
+                "Angola"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "How many cores does the Intel i7-6950X have?",
+            "correct_answer": "10",
+            "incorrect_answers": [
+                "12",
+                "8",
+                "4"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Unix Time is defined as the number of seconds that have elapsed since when?",
+            "correct_answer": "Midnight, January 1, 1970",
+            "incorrect_answers": [
+                "Midnight, July 4, 1976",
+                "Midnight on the creator of Unix's birthday",
+                "Midnight, July 4, 1980"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "In the server hosting industry IaaS stands for...",
+            "correct_answer": "Infrastructure as a Service",
+            "incorrect_answers": [
+                "Internet as a Service",
+                "Internet and a Server",
+                "Infrastructure as a Server"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What does AD stand for in relation to Windows Operating Systems? ",
+            "correct_answer": "Active Directory",
+            "incorrect_answers": [
+                "Alternative Drive",
+                "Automated Database",
+                "Active Department"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "In programming, what do you call functions with the same name but different implementations?",
+            "correct_answer": "Overloading",
+            "incorrect_answers": [
+                "Overriding",
+                "Abstracting",
+                "Inheriting"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "Which one of these is not an official development name for a Ubuntu release?",
+            "correct_answer": "Mystic Mansion",
+            "incorrect_answers": [
+                "Trusty Tahr",
+                "Utopic Unicorn",
+                "Wily Werewolf"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
+            "correct_answer": "Heat Sink",
+            "incorrect_answers": [
+                "CPU Vent",
+                "Temperature Decipator",
+                "Heat Vent"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "On which computer hardware device is the BIOS chip located?",
+            "correct_answer": "Motherboard",
+            "incorrect_answers": [
+                "Hard Disk Drive",
+                "Central Processing Unit",
+                "Graphics Processing Unit"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "What is the name of the default theme that is installed with Windows XP?",
+            "correct_answer": "Luna",
+            "incorrect_answers": [
+                "Neptune",
+                "Whistler",
+                "Bliss"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Computers",
+            "question": "All of the following programs are classified as raster graphics editors EXCEPT:",
+            "correct_answer": "Inkscape",
+            "incorrect_answers": [
+                "Paint.NET",
+                "GIMP",
+                "Adobe Photoshop"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "What major programming language does Unreal Engine 4 use?",
+            "correct_answer": "C++",
+            "incorrect_answers": [
+                "Assembly",
+                "C#",
+                "ECMAScript"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "What port does HTTP run on?",
+            "correct_answer": "80",
+            "incorrect_answers": [
+                "53",
+                "443",
+                "23"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Which kind of algorithm is Ron Rivest not famous for creating?",
+            "correct_answer": "Secret sharing scheme",
+            "incorrect_answers": [
+                "Hashing algorithm",
+                "Asymmetric encryption",
+                "Stream cipher"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "The Harvard architecture for micro-controllers added which additional bus?",
+            "correct_answer": "Instruction",
+            "incorrect_answers": [
+                "Address",
+                "Data",
+                "Control"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "What is the name of the process that sends one qubit of information using two bits of classical information?",
+            "correct_answer": "Quantum Teleportation",
+            "incorrect_answers": [
+                "Super Dense Coding",
+                "Quantum Entanglement",
+                "Quantum Programming"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "America Online (AOL) started out as which of these online service providers?",
+            "correct_answer": "Quantum Link",
+            "incorrect_answers": [
+                "CompuServe",
+                "Prodigy",
+                "GEnie"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Released in 2001, the first edition of Apple's Mac OS X operating system (version 10.0) was given what animal code name?",
+            "correct_answer": "Cheetah",
+            "incorrect_answers": [
+                "Puma",
+                "Tiger",
+                "Leopard"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "What vulnerability ranked #1 on the OWASP Top 10 in 2013?",
+            "correct_answer": "Injection ",
+            "incorrect_answers": [
+                "Broken Authentication",
+                "Cross-Site Scripting",
+                "Insecure Direct Object References"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "What was the first company to use the term \"Golden Master\"?",
+            "correct_answer": "Apple",
+            "incorrect_answers": [
+                "IBM",
+                "Microsoft",
+                "Google"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Lenovo acquired IBM's personal computer division, including the ThinkPad line of laptops and tablets, in what year?",
+            "correct_answer": "2005",
+            "incorrect_answers": [
+                "1999",
+                "2002",
+                "2008"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Dutch computer scientist Mark Overmars is known for creating which game development engine?",
+            "correct_answer": "Game Maker",
+            "incorrect_answers": [
+                "Stencyl",
+                "Construct",
+                "Torque 2D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Which of these is not a key value of Agile software development?",
+            "correct_answer": "Comprehensive documentation",
+            "incorrect_answers": [
+                "Individuals and interactions",
+                "Customer collaboration",
+                "Responding to change"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Which RAID array type is associated with data mirroring?",
+            "correct_answer": "RAID 1",
+            "incorrect_answers": [
+                "RAID 0",
+                "RAID 10",
+                "RAID 5"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "What internet protocol was documented in RFC 1459?",
+            "correct_answer": "IRC",
+            "incorrect_answers": [
+                "HTTP",
+                "HTTPS",
+                "FTP"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?",
+            "correct_answer": "Cherry MX Blue",
+            "incorrect_answers": [
+                "Cherry MX Black",
+                "Cherry MX Red",
+                "Cherry MX Brown"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Who is the founder of Palantir?",
+            "correct_answer": "Peter Thiel",
+            "incorrect_answers": [
+                "Mark Zuckerberg",
+                "Marc Benioff",
+                "Jack Dorsey"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "What was the name of the security vulnerability found in Bash in 2014?",
+            "correct_answer": "Shellshock",
+            "incorrect_answers": [
+                "Heartbleed",
+                "Bashbug",
+                "Stagefright"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "The acronym \"RIP\" stands for which of these?",
+            "correct_answer": "Routing Information Protocol",
+            "incorrect_answers": [
+                "Runtime Instance Processes",
+                "Regular Interval Processes",
+                "Routine Inspection Protocol"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "What does the International System of Quantities refer 1024 bytes as?",
+            "correct_answer": "Kibibyte",
+            "incorrect_answers": [
+                "Kylobyte",
+                "Kilobyte",
+                "Kelobyte"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "What was the name of the first Bulgarian personal computer?",
+            "correct_answer": "IMKO-1",
+            "incorrect_answers": [
+                "Pravetz 82",
+                "Pravetz 8D",
+                "IZOT 1030"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "The internet domain .fm is the country-code top-level domain for which Pacific Ocean island nation?",
+            "correct_answer": "Micronesia",
+            "incorrect_answers": [
+                "Fiji",
+                "Tuvalu",
+                "Marshall Islands"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "How many Hz does the video standard PAL support?",
+            "correct_answer": "50",
+            "incorrect_answers": [
+                "59",
+                "60",
+                "25"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Which of the following computer components can be built using only NAND gates?",
+            "correct_answer": "ALU",
+            "incorrect_answers": [
+                "CPU",
+                "RAM",
+                "Register"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "According to DeMorgan's Theorem, the Boolean expression (AB)' is equivalent to:",
+            "correct_answer": "A' + B'",
+            "incorrect_answers": [
+                "A'B + B'A",
+                "A'B'",
+                "AB' + AB"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+            "correct_answer": "ADPCM Sampler",
+            "incorrect_answers": [
+                "FM Synthesizer",
+                "Programmable Sound Generator (PSG)",
+                "PCM Sampler"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Australia, Japan, and Southeast Asia are in which ITU Region?",
+            "correct_answer": "Region 3",
+            "incorrect_answers": [
+                "Region 1",
+                "Region 2",
+                "Region 4"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Which of these was the name of a bug found in April 2014 in the publicly available OpenSSL cryptography library?",
+            "correct_answer": "Heartbleed",
+            "incorrect_answers": [
+                "Shellshock",
+                "Corrupted Blood",
+                "Shellscript"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Who invented the \"Spanning Tree Protocol\"?",
+            "correct_answer": "Radia Perlman",
+            "incorrect_answers": [
+                "Paul Vixie",
+                "Vint Cerf",
+                "Michael Roberts"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Which of the following is NOT a computer science algorithm?",
+            "correct_answer": "Float Sort",
+            "incorrect_answers": [
+                "Bubble Sort",
+                "Merge Sort",
+                "Quick Sort"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Computers",
+            "question": "Which data structure does FILO apply to?",
+            "correct_answer": "Stack",
+            "incorrect_answers": [
+                "Queue",
+                "Heap",
+                "Tree"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Mathematics",
+            "question": "In Roman Numerals, what does XL equate to?",
+            "correct_answer": "40",
+            "incorrect_answers": [
+                "60",
+                "15",
+                "90"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Mathematics",
+            "question": "What is the equation for the area of a sphere?",
+            "correct_answer": "(4/3)&pi;r^3",
+            "incorrect_answers": [
+                "4&pi;r^2",
+                "(1/3)&pi;hr^2",
+                "&pi;r^4"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Mathematics",
+            "question": "What type of angle is greater than 90&deg;?",
+            "correct_answer": "Obtuse",
+            "incorrect_answers": [
+                "Acute",
+                "Right",
+                "Straight"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Mathematics",
+            "question": "The metric prefix &quot;atto-&quot; makes a measurement how much smaller than the base unit?",
+            "correct_answer": "One Quintillionth",
+            "incorrect_answers": [
+                "One Billionth",
+                "One Quadrillionth",
+                "One Septillionth"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Mathematics",
+            "question": "What&#039;s the square root of 49?",
+            "correct_answer": "7",
+            "incorrect_answers": [
+                "4",
+                "12",
+                "9"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Mathematics",
+            "question": "How many sides does a trapezium have?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                "3",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Mathematics",
+            "question": "How many degrees make a full circle?",
+            "correct_answer": "360",
+            "incorrect_answers": [
+                "180",
+                "90",
+                "720"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Mathematics",
+            "question": "What is the symbol for Displacement?",
+            "correct_answer": "&Delta;r",
+            "incorrect_answers": [
+                "dr",
+                "Dp",
+                "r"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Mathematics",
+            "question": "What is the correct order of operations for solving equations?",
+            "correct_answer": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+            "incorrect_answers": [
+                "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
+                "Parentheses, Exponents, Addition, Substraction, Multiplication, Division",
+                "The order in which the operations are written."
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Science: Mathematics",
+            "question": "How many sides does a heptagon have?",
+            "correct_answer": "7",
+            "incorrect_answers": [
+                "8",
+                "6",
+                "5"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "In a normal distribution, 95% of the data lies within how many standard deviations of the mean?",
+            "correct_answer": "2",
+            "incorrect_answers": [
+                "1",
+                "3",
+                "4"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "What shape does sin(x) or cos(x) make on a graph?",
+            "correct_answer": "Waves",
+            "incorrect_answers": [
+                "A Parabola",
+                "A Straight Line",
+                "Zig-Zags"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "What is the derivative of sin(x)",
+            "correct_answer": "cos(x)",
+            "incorrect_answers": [
+                "csc(x)",
+                "-cos(x)",
+                "-sin(x)"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "What is the Roman numeral for 500?",
+            "correct_answer": "D",
+            "incorrect_answers": [
+                "L",
+                "C",
+                "X"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "In the hexadecimal system, what number comes after 9?",
+            "correct_answer": "The Letter A",
+            "incorrect_answers": [
+                "10",
+                "The Number 0",
+                "16"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "What is the alphanumeric representation of the imaginary number?",
+            "correct_answer": "i",
+            "incorrect_answers": [
+                "e",
+                "n",
+                "x"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "In the complex plane, multiplying a given function by i rotates it anti-clockwise by how many degrees?",
+            "correct_answer": "90",
+            "incorrect_answers": [
+                "180",
+                "270",
+                "0"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "What is the area of a circle with a diameter of 20 inches if &pi;= 3.1415?",
+            "correct_answer": "314.15 Inches",
+            "incorrect_answers": [
+                "380.1215 Inches",
+                "3141.5 Inches",
+                "1256.6 Inches"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "Which greek mathematician ran through the streets of Syracuse naked while shouting &quot;Eureka&quot; after discovering the principle of displacement?",
+            "correct_answer": "Archimedes",
+            "incorrect_answers": [
+                "Euclid",
+                "Homer",
+                "Eratosthenes"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "What Greek letter is used to signify summation?",
+            "correct_answer": "Sigma",
+            "incorrect_answers": [
+                "Delta",
+                "Alpha",
+                "Omega"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "What is the first Mersenne prime exponent over 1000?",
+            "correct_answer": "1279",
+            "incorrect_answers": [
+                "2203",
+                "1009",
+                "1069"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "What type of function is x&sup2;+2x+1?",
+            "correct_answer": "Quadratic",
+            "incorrect_answers": [
+                "Rational",
+                "Linear",
+                "Exponential"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "How many zeros are there in a googol?",
+            "correct_answer": "100",
+            "incorrect_answers": [
+                "10",
+                "1,000",
+                "1,000,000"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "Which mathematician refused the Fields Medal?",
+            "correct_answer": "Grigori Perelman",
+            "incorrect_answers": [
+                "Andrew Wiles",
+                "Terence Tao",
+                "Edward Witten"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "What numbers are in the 5th row of Pascal&#039;s Triangle?",
+            "correct_answer": "1 4 6 4 1",
+            "incorrect_answers": [
+                "1 3 3 1",
+                "1 5 10 10 5 1",
+                "1 6 15 20 15 6 1"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "To the nearest whole number, how many radians are in a whole circle?",
+            "correct_answer": "6",
+            "incorrect_answers": [
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "Which of these probability distributions is NOT discrete?",
+            "correct_answer": "Normal",
+            "incorrect_answers": [
+                "Binomial",
+                "Poisson",
+                "Hyper-geometric"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "What are the first 6 digits of the number &quot;Pi&quot;?",
+            "correct_answer": "3.14159",
+            "incorrect_answers": [
+                "3.14169",
+                "3.12423",
+                "3.25812"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "Which of the following dice is not a platonic solid?",
+            "correct_answer": "10-sided die",
+            "incorrect_answers": [
+                "12-sided die",
+                "20-sided die",
+                "8-sided die"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science: Mathematics",
+            "question": "How many books are in Euclid&#039;s Elements of Geometry?",
+            "correct_answer": "13",
+            "incorrect_answers": [
+                "8",
+                "10",
+                "17"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Mathematics",
+            "question": "What is the approximate value of mathematical constant e?",
+            "correct_answer": "2.72",
+            "incorrect_answers": [
+                "3.14",
+                "1.62",
+                "1.41"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Mathematics",
+            "question": "Which of the following mathematicians made major contributions to game theory?",
+            "correct_answer": "John Von Neumann",
+            "incorrect_answers": [
+                "Carl Friedrich Gauss",
+                "Leonhard Euler",
+                "Stefan Banach"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Mathematics",
+            "question": "The notion of a &quot;set that contains all sets which do not contain themselves&quot; is a paradoxical idea attributed to which English philosopher?",
+            "correct_answer": "Bertrand Russel",
+            "incorrect_answers": [
+                "Francis Bacon",
+                "John Locke",
+                "Alfred North Whitehead"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Mathematics",
+            "question": "What is the derivative of Acceleration with respect to time?",
+            "correct_answer": "Jerk",
+            "incorrect_answers": [
+                "Shift",
+                "Bump",
+                "Slide"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Mathematics",
+            "question": "How many Millibars (mbar) to 1 Inch of Mercury (inHg)",
+            "correct_answer": "33.9",
+            "incorrect_answers": [
+                "30.0",
+                "27.4",
+                "10.6"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Mathematics",
+            "question": "The decimal number 31 in hexadecimal would be what?",
+            "correct_answer": "1F",
+            "incorrect_answers": [
+                "3D",
+                "2E",
+                "1B"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Mathematics",
+            "question": "Which of the following famous mathematicians died in a duel at the age of 20?",
+            "correct_answer": "Galois",
+            "incorrect_answers": [
+                "Abel",
+                "Euler",
+                "Gauss"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Mathematics",
+            "question": "Which of these did mathematician Leonhard Euler NOT develop?",
+            "correct_answer": "An improvement to the Fast Fourier Transform",
+            "incorrect_answers": [
+                "A method of solving first-order differential equations",
+                "An identity linking the numbers e, pi and i",
+                "A formula linking vertices, edges and faces on a graph"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Mathematics",
+            "question": "Integration is the reverse of what mathematical operation?",
+            "correct_answer": "Derivation",
+            "incorrect_answers": [
+                "Division",
+                "Standard Deviation",
+                "Multiplication"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science: Mathematics",
+            "question": "How many zeptometres are inside one femtometre?",
+            "correct_answer": "1,000,000",
+            "incorrect_answers": [
+                "10",
+                "1,000,000,000",
+                "1000"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+            "correct_answer": "Ma Long (China)",
+            "incorrect_answers": [
+                "Zhang Jike (China)",
+                "Jun Mizutani (Japan)",
+                "Vladimir Samsonov (Belarus)"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Who won the 1998 Daytona 500?",
+            "correct_answer": "Dale Earnhardt",
+            "incorrect_answers": [
+                "John Anderson",
+                "Jeff Gordon",
+                "Michael Walltrip"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Etihad Stadium is the home stadium for which team?",
+            "correct_answer": "Manchester City",
+            "incorrect_answers": [
+                "Manchester United",
+                "Arsenal",
+                "Blackpool"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Who scored the injury time winning goal in the 1999 UEFA Champions League final between Manchester United and Bayern Munich?",
+            "correct_answer": "Ole Gunnar Solskj&aelig;r",
+            "incorrect_answers": [
+                "Dwight Yorke",
+                "Andy Cole",
+                "David Beckham"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "In Canadian football, scoring a rouge is worth how many points?",
+            "correct_answer": "1",
+            "incorrect_answers": [
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Which city features all of their professional sports teams&#039; jersey&#039;s with the same color scheme?",
+            "correct_answer": "Pittsburgh",
+            "incorrect_answers": [
+                "New York",
+                "Seattle",
+                "Tampa Bay"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "At which race was the 2018 F1 Drivers Championship won?",
+            "correct_answer": "Mexico",
+            "incorrect_answers": [
+                "United States",
+                "Belgium",
+                "Abu Dhabi"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Which English football team is nicknamed &#039;The Tigers&#039;?",
+            "correct_answer": "Hull City",
+            "incorrect_answers": [
+                "Cardiff City",
+                "Bristol City",
+                "Manchester City"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Which year was the third Super Bowl held?",
+            "correct_answer": "1969",
+            "incorrect_answers": [
+                "1968",
+                "1971",
+                "1970"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+            "correct_answer": "Nine",
+            "incorrect_answers": [
+                "Ten",
+                "Seven",
+                "Eight"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Which player &quot;kung-fu kicked&quot; a Crystal Palace fan in January 1995?",
+            "correct_answer": "Eric Cantona",
+            "incorrect_answers": [
+                "David Seamen",
+                "Ashley Cole",
+                "Mark Hughes"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "The AHL affiliate team of the Boston Bruins is named what?",
+            "correct_answer": "Providence Bruins",
+            "incorrect_answers": [
+                "New Haven Bruins",
+                "Cambridge Bruins",
+                "Hartford Bruins"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Prior to 2018, which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+            "correct_answer": "Mazda",
+            "incorrect_answers": [
+                "Toyota",
+                "Subaru",
+                "Nissan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+            "correct_answer": "DING Ning (China)",
+            "incorrect_answers": [
+                "LI Xiaoxia (China)",
+                "Ai FUKUHARA (Japan)",
+                "Song KIM (North Korea)"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "The Mazda 787B won the 24 Hours of Le Mans in what year?",
+            "correct_answer": "1991",
+            "incorrect_answers": [
+                "1990",
+                "2000",
+                "1987"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?",
+            "correct_answer": "Vladivostok",
+            "incorrect_answers": [
+                "Rostov-on-Don",
+                "Yekaterinburg",
+                "Kaliningrad"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+            "correct_answer": "Portugal",
+            "incorrect_answers": [
+                "West Germany",
+                "Soviet Union",
+                "Brazil"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Which Italian footballer told Neuer where he&#039;s putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+            "correct_answer": "Pelle",
+            "incorrect_answers": [
+                "Insigne",
+                "Barzagli",
+                "Giaccherini"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "What tool lends it&#039;s name to a last-stone advantage in an end in Curling?",
+            "correct_answer": "Hammer",
+            "incorrect_answers": [
+                "Wrench",
+                "Drill",
+                "Screwdriver"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Where was the Games of the XXII Olympiad held?",
+            "correct_answer": "Moscow",
+            "incorrect_answers": [
+                "Barcelona",
+                "Tokyo",
+                "Los Angeles"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "With which doubles partner did John McEnroe have most success?",
+            "correct_answer": "Peter Fleming",
+            "incorrect_answers": [
+                "Mark Woodforde",
+                "Michael Stich",
+                "Mary Carillo"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "What is &ldquo;The Sport of Kings&rdquo;?",
+            "correct_answer": "Horse Racing",
+            "incorrect_answers": [
+                "Chess",
+                "Jousting",
+                "Fencing"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Which of these European cities was the first to host the modern Summer Olympic Games three times?",
+            "correct_answer": "London",
+            "incorrect_answers": [
+                "Paris",
+                "Athens",
+                "Rome"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Who is Manchester United&#039;s leading appearance maker?",
+            "correct_answer": "Ryan Giggs",
+            "incorrect_answers": [
+                "David Beckham",
+                "Wayne Rooney",
+                "Eric Cantona"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "What is the full name of the footballer &quot;Cristiano Ronaldo&quot;?",
+            "correct_answer": "Cristiano Ronaldo dos Santos Aveiro",
+            "incorrect_answers": [
+                "Cristiano Ronaldo los Santos Diego",
+                "Cristiano Armando Diego Ronaldo",
+                "Cristiano Luis Armando Ronaldo"
+            ]
+        }
+    ]
+}
